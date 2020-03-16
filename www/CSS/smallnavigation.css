@@ -1,0 +1,16 @@
+header{position:fixed; float:left; top:0; left:0; width:100%; background:#252525; z-index:2;}
+	#header-home-logo
+	{
+		float:left;
+	}
+	#mobile-nav{display:none;}
+	nav{width:90%; margin:0 5%;}
+		nav ul{visibility:visible; display:block; float:left; margin:0px; padding:0px; list-style-type:none;}
+			nav li{float:left;}
+				nav li a{display:block; padding:10px 25px; font-size:20px; color:white; text-decoration:none; font-weight:bold;}
+					/*nav li a:hover{background:#303030;}*/
+				nav a img{width:125px;}
+				
+/*THIS IS WHERE WE WILL SPACE OUT THE CONTENT CORRECTLY FOR THE CORRECT PLATFORM*/
+#space{display:none;}
+footer{width:100%;}
